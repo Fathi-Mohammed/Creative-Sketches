@@ -1,0 +1,68 @@
+.co_founder_secton {
+  padding-bottom: 0;
+  .co_finder_title__ {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    min-height: 68px;
+    padding: 1.5rem 2.7rem;
+    padding-bottom: 4rem;
+    margin: 35px 0;
+    position: relative;
+    
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background-color: #000;
+      clip-path: polygon( 0.00% 0.00%, 99.38% 0.00%, 83.54% 100%, 0.00% 72.06% );
+
+    }
+    // width: fit-content;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      inset-inline-start: 0;
+      width: 127px;
+      height: 10px;
+      background-color: $greyColor;
+    }
+  }
+
+  .parag__ {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $paragraphMainColor;
+    line-height: 25px;
+  }
+
+  .figure__ {
+    @include p-bottom(501, 368);
+  }
+
+  .img_wrapper__ {
+    max-width: 377px;
+    margin-inline-start: auto;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset-inline-end: 0;
+      bottom: 0;
+      width: 435px;
+      height: 498px;
+      clip-path: polygon( 0.00% 30.30%, 103.66% 0.00%, 103.66% 101.01%, 54.13% 101.01% );
+      background-color: $greyColor;
+      z-index: -1;
+    }
+  }
+  
+
+}

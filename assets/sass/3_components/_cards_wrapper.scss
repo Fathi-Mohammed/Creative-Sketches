@@ -1,0 +1,7 @@
+.cards_wrapper__ {
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}

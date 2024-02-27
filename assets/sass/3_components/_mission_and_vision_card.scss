@@ -1,0 +1,124 @@
+.mission_and_vision_card__ {
+  // background: linear-gradient(-45deg, #fff 0% 40%, #eee 40% 100%);
+  position: relative;
+  width: fit-content;
+  padding: 65px 0;
+  padding-inline-end: 280px;
+  overflow-y: clip;
+  overflow-x: visible;
+  display: flex;
+  align-items: center;
+  
+  @include xs {
+    padding-inline-end: 120px;
+  }
+  
+  .title__ {
+    max-width: 530px;
+    color: $headingMainColor;
+    font-size: 2.7rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 67px;
+
+    @include xs {
+      margin-bottom: 40px;
+    }
+  }
+
+  .parag_head__ {
+    font-size: 2.2rem;
+    color: $headingMainColor;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 10px;
+
+    .icon__ {
+      margin-top: -25px;
+    }
+  }
+  
+  .parag__ {
+    max-width: 530px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $paragraphMainColor;
+  }
+  
+  .background_icon {
+    position: absolute;
+    inset-inline-end: 0;
+    bottom: -117px;
+    // min-width: 380px;
+    width: 380px;
+    z-index: -1;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    inset-inline-end: 0;
+    top: 0;
+    width: 1000%;
+    height: 100%;
+    background-color: #eee;
+    z-index: -2;
+  }
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset-inline-end: 0;
+    top: 0;
+    // width: 173px;
+    // height: 100%;
+    // background: linear-gradient(-65deg, #fff 0% 40%, transparent 40% 100%);
+    border-width: 250px 137px 250px 137px;
+    border-style: solid;
+    border-color: transparent #fff #fff transparent;
+
+    @include xxs {
+      border-width: 150px 87px 150px 87px;
+    }
+
+  }
+  
+  &.vision_card__ {
+    padding-inline-end: unset;
+    padding-inline-start: 280px;
+    margin-inline-start: auto;
+
+    @include xs {
+      padding-inline-start: 150px;
+    }
+    
+    &::after {
+      inset-inline-end: unset !important;
+      inset-inline-start: 0 !important;
+    }
+    
+    &::before {
+      inset-inline-end: unset !important;
+      inset-inline-start: 0 !important;
+      // background: linear-gradient(65deg, #fff 0% 40%, transparent 40% 100%);
+      border-width: 250px 137px 250px 137px;
+      border-style: solid;
+      border-color: transparent transparent #fff #fff;
+
+      @include xxs {
+        border-width: 150px 87px 150px 87px;
+      }
+
+  
+    }
+
+    .background_icon {
+      inset-inline-end: unset;
+      inset-inline-start: 100%;
+    }
+  }
+}

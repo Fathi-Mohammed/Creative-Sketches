@@ -1,0 +1,95 @@
+.service_card__ {
+  position: relative;
+  overflow: hidden;
+  min-height: 475px;
+  max-width: calc(100% / 3 - 10px); 
+  width: calc(100% / 3 - 10px); 
+
+  .figure__ {
+    @include p-bottom(475, 352);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .card_description__ {
+    position: relative;
+    z-index: 2;
+    padding: 20px 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    * {
+      position: relative;
+      z-index: 2;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: 0.5s;
+      background: linear-gradient(0deg, rgba(#000, 1), rgba(#000, 0.41));
+    }
+  }
+
+  .head_wrapper__ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .title__ {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .parag__ {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .info_toggle_hidden {
+    max-height: 100%;
+    transition: max-height 0.5s;
+    transition: all 0.5s linear ease-in-out;
+    opacity: 1;
+  }
+  
+  .toggle_info_wrapper {
+    // transition: all 0.5s;
+    transition: all 0.5s linear ease-in-out;
+    &.hide {
+      
+      .info_toggle_hidden {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-clamp: 2;
+        box-orient: vertical;
+        max-height: 50px !important;
+        transition: all 0.5s linear ease-in-out;
+      }
+    }
+  }
+
+  &:hover {
+    .img-om {
+      transform: scale(1.1);
+    }
+  }
+}

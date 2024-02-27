@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="profile-circle_broken" data-name="profile-circle/broken" opacity="0.5">
+    <g id="vuesax_broken_profile-circle" data-name="vuesax/broken/profile-circle">
+      <g id="profile-circle">
+        <path id="Vector" d="M6.21,1.81A3.27,3.27,0,0,1,3.4,6.55a.963.963,0,0,0-.24,0A3.276,3.276,0,0,1,3.28,0" transform="translate(8.73 6.23)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M13.48,3.945a9.934,9.934,0,0,1-6.74,2.62A9.934,9.934,0,0,1,0,3.945a3.679,3.679,0,0,1,1.77-2.58,9.73,9.73,0,0,1,9.94,0A3.679,3.679,0,0,1,13.48,3.945Z" transform="translate(5.26 15.435)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-3" data-name="Vector" d="M2,4a10,10,0,1,0,8-4A9.865,9.865,0,0,0,5.97.85" transform="translate(2 2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

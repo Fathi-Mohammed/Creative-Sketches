@@ -1,0 +1,38 @@
+.field_of_work_images_wrapper__ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  position: relative;
+  padding: 50px 47px 35px 27px;
+
+  .figure__ {
+    @include p-bottom(262 , 260);
+
+    &:nth-of-type(1) {
+      grid-column: span 2;
+      @include p-bottom(205 , 536);
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;
+    background-color: $primaryColor;
+    width: 276px;
+    height: 154px;
+    z-index: -1;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    inset-inline-end: 0;
+    background-color: $primaryColor;
+    width: 199px;
+    height: 154px;
+    z-index: -1;
+  }
+}

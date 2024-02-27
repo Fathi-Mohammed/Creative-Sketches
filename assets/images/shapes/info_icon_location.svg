@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="location_broken" data-name="location/broken" opacity="0.5">
+    <g id="vuesax_broken_location" data-name="vuesax/broken/location">
+      <g id="location">
+        <path id="Vector" d="M6.24,3.12A3.12,3.12,0,1,1,3.12,0a3.079,3.079,0,0,1,.97.15" transform="translate(8.88 7.19)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-2" data-name="Vector" d="M2.606,2.3c4.37-4.11,12.84-2.7,14.4,4.21,1.15,5.08-2.01,9.38-4.78,12.04a5.193,5.193,0,0,1-7.21,0c-2.76-2.67-5.93-6.97-4.77-12.05" transform="translate(3.374 2.004)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
